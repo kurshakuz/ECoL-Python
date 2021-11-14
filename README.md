@@ -2,7 +2,7 @@
 
 This code provides a Python interface for [The Extended Complexity Library](https://github.com/lpfgarcia/ECoL).
 It can compute the specified data complexity measure for a provided data subset.
-Implementation details and use examples are provided in the `python_ecol.py` file.
+Implementation details and use examples are provided in the `ECoL_Python.py` file.
 
 ## Prerequisites
 
@@ -21,8 +21,8 @@ pip install -r requirements.txt
 
 ## Run the code
 
-Run the `python_ecol.py` file which will compute complexities for given complexity measure and a data subset.
+Run the `ECoL_Python.py` file which will compute complexities for given complexity measure and a data subset.
 
 ```
-python python_ecol.py
+python ECoL_Python.py
 ```

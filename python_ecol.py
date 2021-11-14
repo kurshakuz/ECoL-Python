@@ -25,8 +25,8 @@ print(result_r)
 
 # compute complexities for dataset subset
 all_complexities_check_subset_function_r = robjects.globalenv['all_complexities_check_subset']
-df_result_r = all_complexities_check_subset_function_r(r_from_pd_df)
-print(df_result_r)
+result_r = all_complexities_check_subset_function_r(r_from_pd_df)
+print(result_r)
 
 # overlapping, neighborhood, linearity, dimensionality, balance, network
 group_complexity_check_function_r = robjects.globalenv['group_complexity_check']

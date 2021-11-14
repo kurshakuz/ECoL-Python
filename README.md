@@ -1,5 +1,9 @@
 # ECoL-Python
 
+This code provides a Python interface for [The Extended Complexity Library](https://github.com/lpfgarcia/ECoL).
+It can compute the specified data complexity measure for a provided data subset.
+Implementation details and use examples are provided in the `python_ecol.py` file.
+
 ## Prerequisites
 
 Install R and install the ECoL library in R:

@@ -17,7 +17,7 @@ overlapping_complexity_check <- function(input_dataframe, measure) {
 }
 
 neighborhood_complexity_check <- function(input_dataframe, measure) {
-    return(neighborhood(input_dataframe[,1:4], as.factor(input_dataframe[,5]), measures=measure))
+    return(neighborhood(input_dataframe[,1:2], as.factor(input_dataframe[,3]), measures=measure))
 }
 
 linearity_complexity_check <- function(input_dataframe, measure) {

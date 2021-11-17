@@ -1,2 +1,8 @@
 pandas
 rpy2
+matplotlib
+more_itertools
+seaborn
+plotly
+sklearn
+geneticalgorithm

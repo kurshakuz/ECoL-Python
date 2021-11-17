@@ -86,7 +86,7 @@ print(result_r)
 
 # compute network based complexity for the given measure
 # available measures are:
-# Density, ClsCoef”, Hubs
+# Density, ClsCoef, Hubs
 network_complexity_check_function_r = robjects.globalenv['network_complexity_check']
 result_r = network_complexity_check_function_r(
     r_from_pd_df, x_start_col, x_end_col, y_col, 'Density')
